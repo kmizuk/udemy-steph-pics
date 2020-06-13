@@ -21,8 +21,8 @@ class SearchBar extends React.Component {
                     <div className="field">
                         <label>Image Search</label>
                         <input type="text"
-                            onChange={(e) => this.setState({ term: e.target.value })}//①入力した文字でstate更新
                             value={this.state.term}
+                            onChange={(e) => this.setState({ term: e.target.value })}//①入力した文字でstate更新
                         />
                     </div>
                 </form>
